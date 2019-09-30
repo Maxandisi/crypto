@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Генерация output файла
+Route::get('/', 'GenerateController@index');
